@@ -1,5 +1,5 @@
 # Mate Subword Navigation
-###### An Atom Package - [Atom.io](https://atom.io/packages/subword-navigation) : [Github](https://github.com/dsandstrom/atom-subword-navigation) : [![Build Status](https://travis-ci.org/dsandstrom/atom-subword-navigation.svg?branch=master)](https://travis-ci.org/dsandstrom/atom-subword-navigation)
+###### An Atom Package - [Atom.io](https://atom.io/packages/mate-subword-navigation) : [Github](https://github.com/mendab1e/atom-mate-subword-navigation) : [![Build Status](https://travis-ci.org/mendab1e/atom-mate-subword-navigation.svg?branch=master)](https://travis-ci.org/mendab1e/atom-mate-subword-navigation)
 
 This package is a fork of the [atom-subword-navigation](https://github.com/dsandstrom/atom-subword-navigation).
 Navigate between subwords in Textmate way: ctrl <- or ctrl ->. The only difference from Textmate keybindings is in the delete subword hotkey. Atom shipped with the Bracket Matcher package, which use ctrl+backspace to delete matching brackets, so I have decided to map delete subword to ctrl+shift+backspace.

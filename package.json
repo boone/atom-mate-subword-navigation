@@ -1,15 +1,15 @@
 {
-  "name": "subword-navigation",
+  "name": "mate-subword-navigation",
   "main": "./lib/main",
   "version": "2.1.0",
-  "description": "Navigate camelCase and snake_case words",
+  "description": "Navigate camelCase and snake_case words in the Textmate-way",
   "activationEvents": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dsandstrom/atom-subword-navigation"
+    "url": "https://github.com/mendab1e/atom-mate-subword-navigation"
   },
   "bugs": {
-    "url": "https://github.com/dsandstrom/atom-subword-navigation/issues"
+    "url": "https://github.com/mendab1e/atom-mate-subword-navigation/issues"
   },
   "licenses": [
     {
