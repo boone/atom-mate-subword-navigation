@@ -1,5 +1,10 @@
-# Subword Navigation
+# Mate Subword Navigation
 ###### An Atom Package - [Atom.io](https://atom.io/packages/subword-navigation) : [Github](https://github.com/dsandstrom/atom-subword-navigation) : [![Build Status](https://travis-ci.org/dsandstrom/atom-subword-navigation.svg?branch=master)](https://travis-ci.org/dsandstrom/atom-subword-navigation)
+
+This package is a fork of the [atom-subword-navigation](https://github.com/dsandstrom/atom-subword-navigation).
+Navigate between subwords in Textmate way: ctrl <- or ctrl ->. The only difference from Textmate keybindings is in the delete subword hotkey. Atom shipped with the Bracket Matcher package, which use ctrl+backspace to delete matching brackets, so I have decided to map delete subword to ctrl+shift+backspace.
+
+Also I have added missing Linux/win bindings to delete subwords.
 
 **Harness the power of ALT as you battle the mighty camelCase and treacherous snake_case.**
 
@@ -7,24 +12,23 @@ This package allows you to move the cursor(s) to beginning and end of words, but
 
 - Holding `shift` will highlight as you move left and right.
 
-- Along with highlight, you can delete to the previous/next subword.  However, I did not assign keybindings to them; they are BYOK to prevent conflicts.  Command names are at the bottom of the page.
+- Along with highlight, you can delete to the previous/next subword. Command names are at the bottom of the page.
 
 - Issues and pull requests are welcome.
 
 ### Instructions
+
+|     Mac     |            |            |
+|-------------|----------------|-----------------|
+| Move around | `ctrl-left`  | `ctrl-right`       |
+| Highlight   | `ctrl-shift-left` | `ctrl-shift-right` |
+| Delete      | `ctrl-shift-backspace` | `ctrl-delete` |
 
 |  Linux/Win  |            |            |
 |-------------|----------------|-----------------|
 | Move around | `alt-left`       | `alt-right `   |
 | Highlight   | `alt-shift-left` | `alt-shift-right` |
 | Delete      | `alt-backspace` | `alt-delete` |
-
-|     Mac     |            |            |
-|-------------|----------------|-----------------|
-| Move around | `ctrl-alt-left`  | `alt-right`       |
-| Highlight   | `ctrl-alt-shift-left` | `ctrl-alt-shift-right` |
-| Delete      | `ctrl-alt-backspace` | `ctrl-alt-delete` |
-
 
 ### Dependencies
 Requires Atom v0.145 and up
