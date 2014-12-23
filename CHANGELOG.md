@@ -1,3 +1,6 @@
+## 3.0.1 - 12/23/14
+* Fix specs
+
 ## 3.0.0 - 12/23/14
 * Use Textmate bindings
 

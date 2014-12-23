@@ -20,7 +20,7 @@ describe 'SubwordNavigation', ->
       atom.workspaceView.attachToDom()
       editorView = atom.workspaceView.getActiveView()
       editor = editorView.getEditor()
-      promise = atom.packages.activatePackage('subword-navigation')
+      promise = atom.packages.activatePackage('mate-subword-navigation')
 
     waitsForPromise ->
       promise
