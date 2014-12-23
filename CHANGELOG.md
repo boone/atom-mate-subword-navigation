@@ -1,3 +1,6 @@
+## 3.0.0 - 12/23/14
+* Use Textmate bindings
+
 ## 2.1.0 - 11/28/14
 * Replace deprecated transaction functions
 
